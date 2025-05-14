@@ -5,15 +5,17 @@ const chatRouter = require('./chat-route');
 const verificationRouter = require('./verification-route');
 const historyRouter = require('./history-route');
 const transactionRouter = require('./transaction-route');
+const express = require('express');
 
-function route(app) {
-    app.use('/api/auth', authRouter);
-    app.use('/api/product', productRouter);
-    app.use('/api/post', postRouter);
-    app.use('/api/chat', chatRouter);
-    app.use('/api/verification', verificationRouter);
-    app.use('/api/history', historyRouter);
-    app.use('/api/transaction', transactionRouter);
-}
+const router = express.Router();
 
-module.exports = route;
+// Gắn các router vào đường dẫn tương ứng
+router.use('/auth', authRouter);
+router.use('/product', productRouter);
+router.use('/post', postRouter);
+router.use('/chat', chatRouter);
+router.use('/verification', verificationRouter);
+router.use('/history', historyRouter);
+router.use('/transaction', transactionRouter);
+
+module.exports = router;
