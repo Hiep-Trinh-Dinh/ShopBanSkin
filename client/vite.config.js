@@ -1,9 +1,11 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 import path from 'path';
+import { fileURLToPath } from 'url';
 
-// Lấy thư mục gốc
-const __dirname = path.resolve(); // Cách này sẽ hoạt động trong Node.js
+// Lấy thư mục gốc đúng cách trong ESM
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 export default defineConfig({
   plugins: [react()],
