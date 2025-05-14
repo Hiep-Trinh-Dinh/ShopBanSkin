@@ -3,7 +3,7 @@ import { useState, useRef, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { FaEdit } from 'react-icons/fa';
 import { useDispatch, useSelector } from 'react-redux';
-import { resetUser, updateUser } from '../redux/slides/user-Slide';
+import { resetUser, updateUser } from '../redux/slides/user-slide';
 import { logoutUser, uploadAvatar, changePassword } from '../services/auth-service';
 import { getUserBalance, getUserTransactions } from '../services/transaction-service';
 import { formatVND } from '../utils/formatVND';

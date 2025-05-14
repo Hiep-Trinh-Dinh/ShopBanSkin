@@ -8,7 +8,7 @@ import { useMutation } from '@tanstack/react-query'
 import { loginUser, fetchDetailUser } from '../services/auth-service'
 import * as Alert from './Alert'
 import { useDispatch } from 'react-redux'
-import { updateUser } from '../redux/slides/user-Slide'
+import { updateUser } from '../redux/slides/user-slide'
 import { jwtDecode } from "jwt-decode";
 
 export default function LoginPage() {

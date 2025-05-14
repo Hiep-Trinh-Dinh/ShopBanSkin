@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import { useDispatch } from "react-redux";
 import { Routes, Route, Navigate } from "react-router-dom";
 import { fetchDetailUser } from "./services/auth-service.js";
-import { updateUser } from "./redux/slides/user-Slide.js";
+import { updateUser } from "./redux/slides/user-slide.js";
 import { isJsonString } from "./utils/isJson.js";
 import { jwtDecode } from "jwt-decode"; // Lưu ý kiểm tra thư viện này đã được cài hay chưa
 import * as UserService from "./services/auth-service.js";

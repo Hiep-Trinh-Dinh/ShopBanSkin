@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { Outlet } from 'react-router-dom';
 import { logoutUser } from '../../services/auth-service';
 import { useDispatch } from 'react-redux';
-import { resetUser } from '../../redux/slides/user-Slide';
+import { resetUser } from '../../redux/slides/user-slide';
 import * as Alert from '../Alert';
 
 export default function AdminLayout() {
