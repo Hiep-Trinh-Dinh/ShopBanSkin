@@ -1,0 +1,13 @@
+[33m0348523[m[33m ([m[1;36mHEAD -> [m[1;32mhip[m[33m, [m[1;31morigin/hip[m[33m)[m HEAD@{0}: checkout: moving from main to hip
+[33mc2a96eb[m[33m ([m[1;32mmain[m[33m)[m HEAD@{1}: commit: done chat
+[33m975e975[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m HEAD@{2}: pull: Fast-forward
+[33mc49b375[m HEAD@{3}: checkout: moving from hip to main
+[33m0348523[m[33m ([m[1;36mHEAD -> [m[1;32mhip[m[33m, [m[1;31morigin/hip[m[33m)[m HEAD@{4}: commit: post
+[33m0244a4b[m HEAD@{5}: commit: done information
+[33mbfe83ad[m HEAD@{6}: commit: done add,edit,delete
+[33mc49b375[m HEAD@{7}: rebase (finish): returning to refs/heads/hip
+[33mc49b375[m HEAD@{8}: rebase (start): checkout main
+[33m42817d9[m HEAD@{9}: checkout: moving from main to hip
+[33mc49b375[m HEAD@{10}: commit: checkout hip
+[33m42817d9[m HEAD@{11}: commit: add post
+[33mef6d7b1[m HEAD@{12}: clone: from https://github.com/highlamjay/fe-bookingskin.git
