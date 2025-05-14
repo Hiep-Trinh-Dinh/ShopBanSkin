@@ -2,7 +2,7 @@ services:
   - type: web
     name: shopbanskin
     env: node
-    buildCommand: npm install && cd client && npm install && npm run build && cd ..
+    buildCommand: NODE_ENV=development npm install && cd client && NODE_ENV=development npm install && npx vite build && cd ..
     startCommand: npm start
     envVars:
       - key: NODE_ENV

@@ -7,7 +7,7 @@
     "client": "npm run dev --prefix client",
     "server": "nodemon server/server.js",
     "start": "node server/server.js",
-    "client-build": "cd client && npm install && npx vite build",
+    "client-build": "cd client && npm install --include=dev && npx vite build",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
     "build": "npm install && npm run client-build",
     "render-postbuild": "NPM_CONFIG_PRODUCTION=false"
